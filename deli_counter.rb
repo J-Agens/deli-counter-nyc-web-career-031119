@@ -28,11 +28,3 @@ def now_serving(deli)
   end
 end
 
-    new_deli = []
-    deli.each_with_index do |value, index|
-      new_deli.push("#{index + 1}. #{value}")
-    end
-    "The line is currently: #{new_deli}"
-  end
-end
-
